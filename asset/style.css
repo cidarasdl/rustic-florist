@@ -1167,6 +1167,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity))
+}
+
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -2012,6 +2017,13 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   .md\:hidden {
     display: none;
   }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+
 
   .md\:h-\[calc\(theme\(fontSize\.3xl\)\*theme\(lineHeight\.tight\)\)\] {
     height: calc(1.875rem * 1.25);
