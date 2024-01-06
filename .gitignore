@@ -1,0 +1,4 @@
+base.css
+node_modules/
+*.txt
+tailwind.config.js
