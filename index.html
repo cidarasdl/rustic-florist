@@ -213,6 +213,7 @@
       }
     </style>
     <script type="module" src="./asset/custom.js"></script>
+    <script type="module" src="./asset/aos.js"></script>
   </head>
   <body class="p-0 m-0">
     <header
@@ -310,7 +311,7 @@
             >
               <a
                 aria-hidden="false"
-                class="block w-1/2 p-2 mx-1 rounded-lg text-center text-lg font-semibold bg-gray-900 text-white hover:text-white leading-5 hover:bg-orange-600 md:mx-2 md:w-auto"
+                class="block w-1/2 p-2 mx-1 rounded-lg text-center text-lg font-semibold bg-gray-900 text-white hover:text-white leading-5 hover:bg-violet-600 md:mx-2 md:w-auto"
                 href="/contact"
                 data-astro-cid-3ef6ksr2
                 >Kontak</a
@@ -327,7 +328,7 @@
       <div class="pt-20">
         <div class="text-center max-w-6xl mx-auto">
           <h1
-            class="my-2 pt-20 text-4xl bg-clip-text bg-gradient-to-r from-indigo-950 from-30% via-violet-400 via-55% to-cyan-500 to-75% font-bold tracking-tight text-transparent md:text-7xl dark:text-black animate-fade-down duration-1000"
+            class="my-2 pt-20 text-4xl bg-clip-text bg-gradient-to-r from-indigo-500 from-30% via-violet-700 via-55% to-cyan-500 to-75% font-bold tracking-tight text-transparent md:text-7xl dark:text-black animate-fade-down duration-1000"
           >
             Rustic Florist
           </h1>
@@ -344,7 +345,7 @@
               class="text-black inline-flex flex-col h-[calc(theme(fontSize.2xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] overflow-hidden"
             >
               <ul
-                class="block animate-text-slide text-left leading-tight [&_li]:block"
+                class="block animate-text-slide bg-clip-text bg-gradient-to-b from-indigo-700 from-30% via-violet-400 via-55% to-cyan-500 to-75% text-transparent text-left leading-tight [&_li]:block"
               >
                 <li>Cinta"</li>
                 <li>Keindahan"</li>
@@ -361,7 +362,7 @@
           >
             <a
               aria-hidden="false"
-              class="inline-block w-auto px-6 py-3 text-pink-50 transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-br from-pink-500 via-orange-600 to-pink-700 dark:shadow-lime-900 hover:shadow-2xl hover:shadow-lime-400 hover:scale-105 hover:-translate-y-px"
+              class="inline-block w-auto px-6 py-3 text-pink-50 transition-all rounded-md shadow-xl sm:w-auto bg-gradient-to-br from-pink-500 via-violet-600 to-pink-700 dark:shadow-lime-900 hover:shadow-2xl hover:shadow-lime-400 hover:scale-105 hover:-translate-y-px"
               href="https://api.whatsapp.com/send/?phone=6285769503211&text=Hallo%20kak%2C%20saya%20ingin%20pesan%20papan%20ucapan"
               >Pesan Sekarang
             </a>
@@ -426,7 +427,7 @@
           class="grid p-4 grid-cols-1 md:grid-cols-4 gap-6"
         >
           <div
-            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000"
+            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000 js-show-on-scroll"
           >
             <img
               class="w-auto object-cover"
@@ -616,7 +617,7 @@
             </div>
           </div>
           <div
-            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000"
+            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000 js-show-on-scroll"
           >
             <img
               class="w-auto object-cover"
@@ -806,7 +807,7 @@
             </div>
           </div>
           <div
-            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000"
+            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000 js-show-on-scroll"
           >
             <img
               class="w-auto object-cover"
@@ -996,7 +997,7 @@
             </div>
           </div>
           <div
-            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000"
+            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000 js-show-on-scroll"
           >
             <img
               class="w-auto object-cover"
@@ -1186,7 +1187,7 @@
             </div>
           </div>
           <div
-            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000"
+            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000 js-show-on-scroll"
           >
             <img
               class="w-auto object-cover"
@@ -1376,7 +1377,7 @@
             </div>
           </div>
           <div
-            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000"
+            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000 js-show-on-scroll"
           >
             <img
               class="w-auto object-cover"
@@ -1566,7 +1567,7 @@
             </div>
           </div>
           <div
-            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000"
+            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000 js-show-on-scroll"
           >
             <img
               class="w-auto object-cover"
@@ -1756,7 +1757,7 @@
             </div>
           </div>
           <div
-            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000"
+            class="relative bg-pink-100 max-w-xl mx-auto mt-20 hover:scale-110 duration-1000 js-show-on-scroll"
           >
             <img
               class="w-auto object-cover"
@@ -1953,7 +1954,7 @@
       >
         <div class="grid grid-cols-1 gap-4 px-4 mt-8 md:grid-cols-3 md:px-8">
           <div
-            class="p-4 flex items-center bg-pink-200 border rounded-lg overflow-hidden shadow"
+            class="p-4 flex items-center bg-pink-200 border rounded-lg overflow-hidden shadow-lg shadow-pink-300 js-show-on-scroll"
           >
             <div class="p-4 bg-gray-800 rounded-full">
               <svg
@@ -1979,7 +1980,7 @@
             </div>
           </div>
           <div
-            class="p-4 flex items-center bg-pink-200 border rounded-lg overflow-hidden shadow"
+            class="p-4 flex items-center bg-pink-200 border rounded-lg overflow-hidden shadow-lg shadow-pink-300 js-show-on-scroll"
           >
             <div class="p-4 bg-gray-800 rounded-full">
               <svg
@@ -2008,7 +2009,7 @@
             </div>
           </div>
           <div
-            class="p-4 flex items-center bg-pink-200 border rounded-lg overflow-hidden shadow"
+            class="p-4 flex items-center bg-pink-200 border rounded-lg overflow-hidden shadow-lg shadow-pink-300 js-show-on-scroll"
           >
             <div class="p-4 bg-gray-800 rounded-full">
               <svg
@@ -2036,7 +2037,7 @@
           class="container px-5 pt-12 md:py-24 mx-auto flex sm:flex-nowrap flex-wrap"
         >
           <div
-            class="lg:w-2/3 z-30 md:w-1/2 bg-pink-100 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
+            class="lg:w-2/3 z-30 md:w-1/2 bg-pink-100 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative js-show-on-scroll"
           >
             <iframe
               width="100%"
@@ -2304,7 +2305,7 @@
         <button
           title="Open Modal"
           x-on:click="open = true"
-          class="p-2 bg-pink-500 text-white rounded-full"
+          class="p-2 bg-violet-600 text-white rounded-full"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
