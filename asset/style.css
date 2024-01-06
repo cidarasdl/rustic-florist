@@ -1128,8 +1128,8 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   border-width: 2px;
 }
 
-.border-t {
-  border-top-width: 1px;
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-pink-600 {
